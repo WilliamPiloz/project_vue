@@ -5,8 +5,8 @@
     <swiper class="swiper gallery-top" :options="swiperOptionTop" ref="swiperTop">
       <swiper-slide class="slide-1"><img src="../assets/test.jpg" /></swiper-slide>
       <swiper-slide class="slide-2"><img src="../assets/car1.png" /></swiper-slide>
-      <swiper-slide class="slide-3"></swiper-slide>
-      <swiper-slide class="slide-4"></swiper-slide>
+      <swiper-slide class="slide-3"><img src="../assets/land2.jpg" /></swiper-slide>
+      <swiper-slide class="slide-4"><img src="../assets/car2.png" /></swiper-slide>
       <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
       <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
     </swiper>
@@ -85,10 +85,10 @@
         background-image:url('../assets/car1.png');
       }
       &.slide-3 {
-        background-image:url('/images/example/4.jpg');
+        background-image:url('../assets/land2.jpg');
       }
       &.slide-4 {
-        background-image:url('/images/example/5.jpg');
+        background-image:url('../assets/car2.png');
       }
     }
 

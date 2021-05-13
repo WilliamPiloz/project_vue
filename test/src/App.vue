@@ -64,8 +64,8 @@ body {
   background: linear-gradient(
     120deg,
     rgb(214, 48, 181) 0%,
-    rgb(173, 36, 6) 48%,
-    rgba(249, 248, 113, 1) 100%
+    rgb(166, 14, 212) 48%,
+    rgb(113, 115, 249) 100%
   );
 }
 .logo {
